@@ -89,7 +89,22 @@ header nav a:hover{ /* Quando passar o mouse muda para essa cor */
     color:black;
 
 }
-.botao i{
+.botao i{ /* icones */
     margin-right: 8px;
     color: red;
+}
+
+
+.container{
+    margin-left: 20px;
+}
+
+.time-principal .container{
+    width: 70%; /* limite de largura */
+}
+
+.box-time{ /* classe criada para manipular as miniaturas */
+    height: 50%; /* tamanho natural */
+    width: 50%;
+    display: block;
 }

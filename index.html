@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+<!-- owl css -->
+     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+
     <title>FutFlix</title>
 </head>
 <body>
     <header><!-- cabeçalho -->
-        <div class="container">
+        <div class="container"><!-- caixa -->
             <h2 class="logo">FUTFLIX</h2>
             <nav><!-- menu de navegação -->
                 <a href="#">Inicio</a>
@@ -40,7 +45,24 @@
              </div>
        </div>
     </main>
+    
+    <div class="carrosel-times"><!-- criada classe carrosel -->
+        <div class="owl-carousel owl-theme"><!-- classe chamando o tema do carrosel -->
+            </div class="item"><!-- criar um item para cada miniatura do carrosel -->
+                <img class="box-time" src="/img/mini_corinthians.jpg" alt="" srcset="">
+            </div>
+        <div>
 
+    </div>
+
+
+
+
+<!-- javascrip sempre a ultima coisa da pagina -->
     <script src="https://kit.fontawesome.com/ceadaf3ee5.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
 </body>
 </html>
