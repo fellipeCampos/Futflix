@@ -1,0 +1,95 @@
+/* permite utilização de variavel no css */
+:root{
+    --vermelho: #E50914;
+    --preta:#141414;
+
+}
+
+ 
+*{/* reset do css para regra padrão */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* coloca os elementos em tela no limite da borda da caixa */
+
+}
+/* elementos base */
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;/* google fontes para fontes de fora */
+    color: white; /* filhos herdam alteraçoes do body */
+
+}
+header .container{
+    /*border: 1px solid black; cria a caixa do html */
+    display:flex;/* alinhamento */
+    flex-direction: row;
+    align-items: center; /* centraliza */
+    justify-content: space-between;/* elementos orizontais com espaço */
+}
+
+header .logo {
+    margin-left: 5px;/* desgruda o logo da tela */
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{ /* acessando o menu navegação para mudar cor */
+    text-decoration:none;
+    color:#AAA;
+    margin-right:10px;
+}
+
+header nav a:hover{ /* Quando passar o mouse muda para essa cor */
+    color: #fff;
+}
+
+/* post pricipal */
+.time-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-palmeiras.jpg');/* gradiente rgba sao duas cores para ter contrastre com camada fina transparente */
+
+
+    height:400px /* tamanho da caiza */;
+    background-size:cover; /* tamanho da img cover pega o tamaho da caiza */
+    
+    display: flex; /* joga os elemntos por ppadrao em linha */
+    flex-direction:column; /* define os elementos como coluna */
+    justify-content:center; /* sempre segue a direção do flez */
+    align-items:flex-start; /* os elementos começam da esquerda pra direita */
+
+}
+.time-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.titulo {
+    margin-top: 15%; /* trabalhar com percentual */
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+
+    padding: 15px 30px; /* tamanho de dentro pra fora com um valor le divide para todos os lados se passar 2 valores é cima e baizo */
+    margin-right: 15px; /* espaço entre eles pra direita */
+    font-size: 12px;
+
+    cursor: pointer; /* muda o cursor quando passa o mouse identificando um botão */
+    transition: .3s ;/* cuida da parte entre uma animação ou outra nesse caso dando delay a mudança da cor do botão*/
+
+}
+
+.botao:hover{ /* quando passar o mouse pelo botão */
+    background-color: white;
+    color:black;
+
+}
+.botao i{
+    margin-right: 8px;
+    color: red;
+}
