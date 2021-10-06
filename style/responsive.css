@@ -1,0 +1,19 @@
+@media screen and (max-width:700px){ /* regra de formatação para até 700p */
+    header .container{
+        display: flex;
+        flex-direction: column; /* joga o conteudo para baizo quando a tela diminui */
+    }
+    
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+        
+    }
+}
+
+@media screen and (min-width:1000px) { /* quando a tela tiver mais de 1000p */
+    .descricao{
+        width: 50px;
+    }
+    
+}
