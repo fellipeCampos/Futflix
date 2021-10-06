@@ -15,7 +15,7 @@
 /* elementos base */
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;/* google fontes para fontes de fora */
+    font-family: 'Arial', Times, serif;/* google fontes para fontes de fora */
     color: white; /* filhos herdam alteraçoes do body */
 
 }
@@ -63,10 +63,10 @@ header nav a:hover{ /* Quando passar o mouse muda para essa cor */
     margin-top: 10px;
     margin-bottom: 40px;
 }
-.titulo {
+.time-principal .titulo {
     margin-top: 15%; /* trabalhar com percentual */
     font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 .botao{
@@ -104,7 +104,13 @@ header nav a:hover{ /* Quando passar o mouse muda para essa cor */
 }
 
 .box-time{ /* classe criada para manipular as miniaturas */
-    height: 50%; /* tamanho natural */
-    width: 50%;
+    height: 100%; /* tamanho natural */
+    width: 100%;
     display: block;
+    cursor: pointer;
+}
+
+
+.carousel-times{
+    margin-top:10px;
 }
