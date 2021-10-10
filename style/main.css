@@ -119,3 +119,20 @@ header nav a:hover{ /* Quando passar o mouse muda para essa cor */
 .carousel-times{
     margin-top:10px;
 }
+
+/* CSS DA PAGINA DE INFORMAÇÕES */
+
+.informacoes{
+    height: 50%;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--vermelho);
+    margin-left: 32%;
+    margin-top: 5%;
+    font-size: 28px;
+}
+.descricao-info{
+    font-size: 22px;
+    margin-top: 2%;
+    margin-left: 25%;
+}
