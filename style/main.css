@@ -47,7 +47,7 @@ header nav a:hover{ /* Quando passar o mouse muda para essa cor */
 /* post pricipal */
 .time-principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-palmeiras.jpg');/* gradiente rgba sao duas cores para ter contrastre com camada fina transparente */
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-fut2.jpg');/* gradiente rgba sao duas cores para ter contrastre com camada fina transparente */
 
 
     height:400px /* tamanho da caiza */;
@@ -101,6 +101,11 @@ header nav a:hover{ /* Quando passar o mouse muda para essa cor */
 
 .time-principal .container{
     width: 70%; /* limite de largura */
+}
+
+.video{
+    text-decoration:none;
+    color: white;
 }
 
 .box-time{ /* classe criada para manipular as miniaturas */
