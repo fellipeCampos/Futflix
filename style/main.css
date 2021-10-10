@@ -47,11 +47,11 @@ header nav a:hover{ /* Quando passar o mouse muda para essa cor */
 /* post pricipal */
 .time-principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-fut2.jpg');/* gradiente rgba sao duas cores para ter contrastre com camada fina transparente */
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-futfli.png');/* gradiente rgba sao duas cores para ter contrastre com camada fina transparente */
 
 
     height:400px /* tamanho da caiza */;
-    background-size:cover; /* tamanho da img cover pega o tamaho da caiza */
+    background-size: cover; /* tamanho da img cover pega o tamaho da caiza */
     
     display: flex; /* joga os elemntos por ppadrao em linha */
     flex-direction:column; /* define os elementos como coluna */
